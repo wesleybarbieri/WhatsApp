@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D86B6C028DB4F51001B972F /* MensagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86B6BF28DB4F51001B972F /* MensagensViewController.swift */; };
+		8D86B6C428DBC37B001B972F /* MensagensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86B6C328DBC37B001B972F /* MensagensTableViewCell.swift */; };
+		8D8A2E1528D4E6FB00B54FEE /* ContatoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2E1428D4E6FB00B54FEE /* ContatoTableViewCell.swift */; };
+		8D8A2E1728D4EB9900B54FEE /* ContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A2E1628D4EB9900B54FEE /* ContatoViewController.swift */; };
+		8D8BFF5A28DDF2800041A500 /* ConversasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BFF5928DDF2800041A500 /* ConversasViewController.swift */; };
+		8D8BFF5C28DDF6770041A500 /* ConversasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BFF5B28DDF6770041A500 /* ConversasTableViewCell.swift */; };
+		8D8FDB7228D9E29400A6607A /* CadastroContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8FDB7128D9E29400A6607A /* CadastroContatoViewController.swift */; };
+		8D952D6F28D0E91600BD8CEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D952D6E28D0E91600BD8CEF /* AppDelegate.swift */; };
+		8D952D7128D0E91600BD8CEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D952D7028D0E91600BD8CEF /* SceneDelegate.swift */; };
+		8D952D7628D0E91600BD8CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D952D7428D0E91600BD8CEF /* Main.storyboard */; };
+		8D952D7828D0E91800BD8CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D952D7728D0E91800BD8CEF /* Assets.xcassets */; };
+		8D952D7B28D0E91800BD8CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D952D7928D0E91800BD8CEF /* LaunchScreen.storyboard */; };
+		8D952D8328D0EB6900BD8CEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D952D8228D0EB6900BD8CEF /* GoogleService-Info.plist */; };
+		8D952D8728D113B500BD8CEF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D952D8628D113B500BD8CEF /* LoginViewController.swift */; };
+		8D952D8928D113CA00BD8CEF /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D952D8828D113CA00BD8CEF /* CadastroViewController.swift */; };
+		8D955ECE28D25CE2004075FC /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D955ECD28D25CE2004075FC /* AjustesViewController.swift */; };
+		F5FF9BAF502813772E53CA61 /* Pods_WhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2DDB285ED77DFE1A97FD45 /* Pods_WhatsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D2DDB285ED77DFE1A97FD45 /* Pods_WhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F191B998ABE771C7980775 /* Pods-WhatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.debug.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8D86B6BF28DB4F51001B972F /* MensagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagensViewController.swift; sourceTree = "<group>"; };
+		8D86B6C328DBC37B001B972F /* MensagensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagensTableViewCell.swift; sourceTree = "<group>"; };
+		8D8A2E1428D4E6FB00B54FEE /* ContatoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoTableViewCell.swift; sourceTree = "<group>"; };
+		8D8A2E1628D4EB9900B54FEE /* ContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoViewController.swift; sourceTree = "<group>"; };
+		8D8BFF5928DDF2800041A500 /* ConversasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasViewController.swift; sourceTree = "<group>"; };
+		8D8BFF5B28DDF6770041A500 /* ConversasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableViewCell.swift; sourceTree = "<group>"; };
+		8D8FDB7128D9E29400A6607A /* CadastroContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroContatoViewController.swift; sourceTree = "<group>"; };
+		8D952D6B28D0E91600BD8CEF /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D952D6E28D0E91600BD8CEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D952D7028D0E91600BD8CEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D952D7528D0E91600BD8CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D952D7728D0E91800BD8CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D952D7A28D0E91800BD8CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D952D7C28D0E91800BD8CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D952D8228D0EB6900BD8CEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8D952D8628D113B500BD8CEF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8D952D8828D113CA00BD8CEF /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		8D955ECD28D25CE2004075FC /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		E29A6AEFC42301DE445D1026 /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D952D6828D0E91600BD8CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FF9BAF502813772E53CA61 /* Pods_WhatsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EABE4314DB18D8EA9E860C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F191B998ABE771C7980775 /* Pods-WhatsApp.debug.xcconfig */,
+				E29A6AEFC42301DE445D1026 /* Pods-WhatsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D8A2E1328D4E69B00B54FEE /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2E1428D4E6FB00B54FEE /* ContatoTableViewCell.swift */,
+				8D86B6C328DBC37B001B972F /* MensagensTableViewCell.swift */,
+				8D8BFF5B28DDF6770041A500 /* ConversasTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		8D952D6228D0E91600BD8CEF = {
+			isa = PBXGroup;
+			children = (
+				8D952D6D28D0E91600BD8CEF /* WhatsApp */,
+				8D952D6C28D0E91600BD8CEF /* Products */,
+				13EABE4314DB18D8EA9E860C /* Pods */,
+				ABBAB16B4EA0C003A020B35D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D952D6C28D0E91600BD8CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D952D6B28D0E91600BD8CEF /* WhatsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D952D6D28D0E91600BD8CEF /* WhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				8D8A2E1328D4E69B00B54FEE /* TableViewCell */,
+				8D952D8528D1133100BD8CEF /* Model */,
+				8D952D8428D1131000BD8CEF /* ViewController */,
+				8D952D6E28D0E91600BD8CEF /* AppDelegate.swift */,
+				8D952D7028D0E91600BD8CEF /* SceneDelegate.swift */,
+				8D952D7428D0E91600BD8CEF /* Main.storyboard */,
+				8D952D7728D0E91800BD8CEF /* Assets.xcassets */,
+				8D952D7928D0E91800BD8CEF /* LaunchScreen.storyboard */,
+				8D952D7C28D0E91800BD8CEF /* Info.plist */,
+				8D952D8228D0EB6900BD8CEF /* GoogleService-Info.plist */,
+			);
+			path = WhatsApp;
+			sourceTree = "<group>";
+		};
+		8D952D8428D1131000BD8CEF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8D955ECC28D25CCA004075FC /* Tabs */,
+				8D952D8628D113B500BD8CEF /* LoginViewController.swift */,
+				8D952D8828D113CA00BD8CEF /* CadastroViewController.swift */,
+				8D8FDB7128D9E29400A6607A /* CadastroContatoViewController.swift */,
+				8D86B6BF28DB4F51001B972F /* MensagensViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8D952D8528D1133100BD8CEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D955ECC28D25CCA004075FC /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				8D955ECD28D25CE2004075FC /* AjustesViewController.swift */,
+				8D8A2E1628D4EB9900B54FEE /* ContatoViewController.swift */,
+				8D8BFF5928DDF2800041A500 /* ConversasViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		ABBAB16B4EA0C003A020B35D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2DDB285ED77DFE1A97FD45 /* Pods_WhatsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D952D6A28D0E91600BD8CEF /* WhatsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D952D7F28D0E91800BD8CEF /* Build configuration list for PBXNativeTarget "WhatsApp" */;
+			buildPhases = (
+				3066167505367C46BE410B2D /* [CP] Check Pods Manifest.lock */,
+				8D952D6728D0E91600BD8CEF /* Sources */,
+				8D952D6828D0E91600BD8CEF /* Frameworks */,
+				8D952D6928D0E91600BD8CEF /* Resources */,
+				BDCE133AC0DCBDDE14C038C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsApp;
+			productName = WhatsApp;
+			productReference = 8D952D6B28D0E91600BD8CEF /* WhatsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D952D6328D0E91600BD8CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8D952D6A28D0E91600BD8CEF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D952D6628D0E91600BD8CEF /* Build configuration list for PBXProject "WhatsApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D952D6228D0E91600BD8CEF;
+			productRefGroup = 8D952D6C28D0E91600BD8CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D952D6A28D0E91600BD8CEF /* WhatsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D952D6928D0E91600BD8CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D952D7B28D0E91800BD8CEF /* LaunchScreen.storyboard in Resources */,
+				8D952D8328D0EB6900BD8CEF /* GoogleService-Info.plist in Resources */,
+				8D952D7828D0E91800BD8CEF /* Assets.xcassets in Resources */,
+				8D952D7628D0E91600BD8CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3066167505367C46BE410B2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCE133AC0DCBDDE14C038C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D952D6728D0E91600BD8CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8A2E1528D4E6FB00B54FEE /* ContatoTableViewCell.swift in Sources */,
+				8D8BFF5A28DDF2800041A500 /* ConversasViewController.swift in Sources */,
+				8D8BFF5C28DDF6770041A500 /* ConversasTableViewCell.swift in Sources */,
+				8D952D8728D113B500BD8CEF /* LoginViewController.swift in Sources */,
+				8D955ECE28D25CE2004075FC /* AjustesViewController.swift in Sources */,
+				8D86B6C428DBC37B001B972F /* MensagensTableViewCell.swift in Sources */,
+				8D8A2E1728D4EB9900B54FEE /* ContatoViewController.swift in Sources */,
+				8D952D6F28D0E91600BD8CEF /* AppDelegate.swift in Sources */,
+				8D86B6C028DB4F51001B972F /* MensagensViewController.swift in Sources */,
+				8D952D7128D0E91600BD8CEF /* SceneDelegate.swift in Sources */,
+				8D8FDB7228D9E29400A6607A /* CadastroContatoViewController.swift in Sources */,
+				8D952D8928D113CA00BD8CEF /* CadastroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D952D7428D0E91600BD8CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D952D7528D0E91600BD8CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D952D7928D0E91800BD8CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D952D7A28D0E91800BD8CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D952D7D28D0E91800BD8CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D952D7E28D0E91800BD8CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D952D8028D0E91800BD8CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F191B998ABE771C7980775 /* Pods-WhatsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ZFUZP398;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesley-Yu.WhatsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D952D8128D0E91800BD8CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29A6AEFC42301DE445D1026 /* Pods-WhatsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ZFUZP398;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesley-Yu.WhatsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D952D6628D0E91600BD8CEF /* Build configuration list for PBXProject "WhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D952D7D28D0E91800BD8CEF /* Debug */,
+				8D952D7E28D0E91800BD8CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D952D7F28D0E91800BD8CEF /* Build configuration list for PBXNativeTarget "WhatsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D952D8028D0E91800BD8CEF /* Debug */,
+				8D952D8128D0E91800BD8CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D952D6328D0E91600BD8CEF /* Project object */;
+}
